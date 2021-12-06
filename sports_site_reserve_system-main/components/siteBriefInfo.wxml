@@ -1,0 +1,17 @@
+<view class="siteBriefInfo">
+    <!-- 左侧图片 -->
+    <image class="left_img" src="">
+        
+    </image>
+    <text class="right_name">风雨操场</text>
+    <text class="status">未预订</text>
+    <text class="site_variety">足球</text>
+    <!-- 场地tag -->
+    <view class="tags">
+        <text 
+        wx:for="{{tags}}"
+        >
+            {{item.tag_content}}
+        </text>
+    </view>
+</view>

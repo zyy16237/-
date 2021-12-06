@@ -1,0 +1,56 @@
+<!--pages/join/join.wxml-->
+<view class="my_zanju_btn">
+<button style="width: 140px;" bindtap="myzanju" type="primary" plain>我的攒局</button> </view>
+  <view class="zanju_btn">
+<button style="width: 140px;" bindtap="originate" type="warn" plain>发起攒局</button>
+  </view>
+
+  <view class="view_fengexian1"><view>
+  </view>
+  </view>
+  <view class="order" style="height:fit-content;width: 100%;margin-top: -100rpx;">
+  <view class="left_view" style="width: fit-content;">
+    <view><text style="margin-left: 40rpx; size: inherit; flex: content;" class="txt_large">发起人</text></view>
+    <view><image src="http://a1.qpic.cn/psc?/V53kSfsv39Bv2W0oBvnx32Yaik2IQQud/05RlWl8gsTOH*Z17MtCBzBv8EhmqHLOjHB6Lydgq8UIRFlmSUCOCS26laUlz9jQnO2apNgyf4KFc9pwny7aDhA!!/b&ek=1&kp=1&pt=0&bo=kAGQAZABkAERADc!&tl=1&tm=1638788400&sce=0-12-12&rf=viewer_311" mode="scaleToFill" class="img_user"></image></view>
+    <view><text style="margin-left: 40rpx;size: inherit;" class="txt_tiny">用户名</text></view>
+  </view>
+  <view class="right_view" style="width: fit-content;">
+    <text style="size: inherit; margin-left: 270rpx;">地点:</text>
+    <text style="size: inherit; margin-left: 10rpx;">南校风雨操场</text>
+    <button style="size: inherit; margin-left: 350rpx;" type="primary" size="mini" class="btn">立即加入</button>
+  </view>
+</view>
+  <view class="view_fengexian2"><view>
+  </view>
+  </view>
+  <view class="order" style="height:fit-content;width: 100%;margin-top: 20rpx;">
+  <view class="left_view" style="width: fit-content;">
+    <view><text style="margin-left: 40rpx; size: inherit; flex: content;" class="txt_large">发起人</text></view>
+    <view><image src="http://a1.qpic.cn/psc?/V53kSfsv39Bv2W0oBvnx32Yaik2IQQud/05RlWl8gsTOH*Z17MtCBzBv8EhmqHLOjHB6Lydgq8UIRFlmSUCOCS26laUlz9jQnO2apNgyf4KFc9pwny7aDhA!!/b&ek=1&kp=1&pt=0&bo=kAGQAZABkAERADc!&tl=1&tm=1638788400&sce=0-12-12&rf=viewer_311" mode="scaleToFill" class="img_user"></image></view>
+    <view><text style="margin-left: 40rpx;size: inherit;" class="txt_tiny">用户名</text></view>
+  </view>
+  <view class="right_view" style="width: fit-content;">
+    <text style="size: inherit; margin-left: 270rpx;">地点:</text>
+    <text style="size: inherit; margin-left: 10rpx;">南校风雨操场</text>
+    <button style="size: inherit; margin-left: 350rpx;" type="primary" size="mini" class="btn">立即加入</button>
+  </view>
+</view>
+  <view class="view_fengexian2"><view>
+  </view>
+  </view>
+  <view class="order" style="height:fit-content;width: 100%;margin-top: 20rpx;">
+  <view class="left_view" style="width: fit-content;">
+    <view><text style="margin-left: 40rpx; size: inherit; flex: content;" class="txt_large">发起人</text></view>
+    <view><image src="http://a1.qpic.cn/psc?/V53kSfsv39Bv2W0oBvnx32Yaik2IQQud/05RlWl8gsTOH*Z17MtCBzBv8EhmqHLOjHB6Lydgq8UIRFlmSUCOCS26laUlz9jQnO2apNgyf4KFc9pwny7aDhA!!/b&ek=1&kp=1&pt=0&bo=kAGQAZABkAERADc!&tl=1&tm=1638788400&sce=0-12-12&rf=viewer_311" mode="scaleToFill" class="img_user"></image></view>
+    <view><text style="margin-left: 40rpx;size: inherit;" class="txt_tiny">用户名</text></view>
+  </view>
+  <view class="right_view" style="width: fit-content;">
+    <text style="size: inherit; margin-left: 270rpx;">地点:</text>
+    <text style="size: inherit; margin-left: 10rpx;">南校风雨操场</text>
+    <button style="size: inherit; margin-left: 350rpx;" type="primary" size="mini" class="btn">立即加入</button>
+  </view>
+</view>
+<view class="view_fengexian2"><view>
+  </view>
+  </view>
+

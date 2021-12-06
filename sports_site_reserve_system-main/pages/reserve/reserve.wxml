@@ -1,0 +1,42 @@
+<!-- 定位 -->
+<view class="location">
+    <view mode="widthFix" class="t-icon t-icon-dingwei" bindtap="getAddress"></view>
+    <veiw  class="location_text">
+        {{address}}
+    </veiw>
+</view>
+<!-- 场地种类 -->
+<view class="site_variety">
+    <navigator 
+    wx:for="{{siteVariety}}"
+    >
+    <image mode="widthFix" src="{{item.img_src}}" mode="widthFit"></image>
+    <view class="variety_name">{{item.name}}</view>
+    </navigator>
+</view>
+
+<!-- 推荐活动 -->
+<view class="activity">
+    <text class="activity_name">推荐活动</text>
+    <text class="activity_more">更多活动</text>
+</view>
+<!-- 活动图片 -->
+<swiper class="activity_recommend" autoplay indicator-dots circular>
+    <swiper-item wx:for="{{activitySwiper}}">
+        <navigator>
+            <image class="activity_img" src="{{item.img_src}}" mode="widthFix"></image>
+        </navigator>
+    </swiper-item>
+</swiper>
+<!-- 推荐场馆 -->
+<view class="site_recommend">
+    <text class="recommend">场地推荐</text>
+</view>
+<!-- 场地简要信息 -->
+<swiper class="site_recommend" autoplay indicator-dots circular>
+    <swiper-item wx:for="{{siteSwiper}}">
+        <navigator>
+            <image class="site_img" src="{{item.img_src}}" mode="widthFix"></image>
+        </navigator>
+    </swiper-item>
+</swiper>

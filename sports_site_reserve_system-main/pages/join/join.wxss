@@ -1,0 +1,58 @@
+/* pages/join/join.wxss */
+.zanju_btn {
+  margin-top: -84rpx;
+  display: flex;
+  margin-left: 350rpx;
+}
+.my_zanju_btn {
+  margin-top: 100rpx;
+  display: flex;
+  margin-right: 350rpx;
+}
+.order{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:flex-start;
+}
+.txt{
+  background-color: brown;
+}
+.img_user{
+  margin-left: 40rpx;
+  border-radius: 100rpx; 
+  height: 100rpx;
+  width: 100rpx;
+}
+.btn{
+  border-radius: 98rpx; 
+  margin-top: 80rpx;
+  font-size: 11rpx;
+}
+.view_fengexian1 {
+  width: 96%;
+  height: 300rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0rpx 2% 0rpx 2%;
+}
+.view_fengexian1 view {
+  width: 95%;
+  height: 1rpx;
+  background:  #60b97e;
+}
+.view_fengexian2 {
+  width: 96%;
+  height: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0rpx 2% 0rpx 2%;
+}
+.view_fengexian2 view {
+  width: 95%;
+  height: 1rpx;
+  background:  #60b97e;
+}

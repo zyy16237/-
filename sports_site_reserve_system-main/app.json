@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/User/User",
+    "pages/reserve/reserve",
+    "pages/join/join"
+  ],
+  "window":{
+    "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#75c5da",
+        "navigationBarTitleText": "siteReserve",
+        "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#111111",
+    "selectedColor": "#000000",
+    "backgroundColor": "#FFFFFF",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+        {
+            "pagePath": "pages/reserve/reserve",
+            "text": "场地租借",
+            "iconPath": "/icon/home.png",
+            "selectedIconPath": "/icon/home-s.png"
+        },
+        {
+            "pagePath": "pages/join/join",
+            "text": "攒局",
+            "iconPath": "/icon/Category.png",
+            "selectedIconPath": "/icon/Category-s.png"
+        },
+        {
+            "pagePath": "pages/User/User",
+            "text": "我的",
+            "iconPath": "/icon/mine.png",
+            "selectedIconPath": "/icon/mine-s.png"
+        }
+    ]
+  }
+}

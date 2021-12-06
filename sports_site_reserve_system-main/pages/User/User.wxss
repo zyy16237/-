@@ -1,0 +1,59 @@
+page {
+  background-color: #fff;
+}
+.user_info_wrap{
+  height: 45vh;
+  background-color: var(--themecolor);
+  overflow: hidden;
+}
+.login_btn{
+  margin-top: 150rpx;
+}
+.user_info_wrap .user{
+  position: relative;
+}
+.user_info_wrap .user .user_img{
+  height: 50vh;
+  filter: blur(10rpx);
+}
+.user_info_wrap .user .user_info{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  text-align: center;
+}
+.user_info_wrap .user .user_info .user_info_icon{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_info_wrap .user .user_info .user_info_name{
+  margin-top: 40rpx;
+  color: #fff;
+}
+
+.user_item{
+  position: relative;
+}
+.user_item .app_info_wrap{
+  padding-bottom: 100rpx;
+  color: #666;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+}
+.user_item .app_info_wrap {
+  background-color: #fff;
+  margin-top: 30rpx;
+}
+.user_item .app_info_wrap .info_item {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.user_item .app_info_wrap .info_contact {
+  display: flex;
+  justify-content: space-between;
+}

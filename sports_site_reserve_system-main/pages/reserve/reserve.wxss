@@ -1,0 +1,86 @@
+/* pages/reserve/reserve.wxss */
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20rpx;
+  border: 2rpx;
+  background-color: var(--themeColor);
+  margin: 10rpx;
+  padding: 5rpx;
+}
+.location .location_icon {
+  height: 100%;
+  flex: 1;
+}
+.location .location_text {
+  height: 100%;
+  justify-content: center;
+  margin-left: 20px;
+  flex: 5;
+}
+.site_variety {
+  margin-top: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 10rpx;
+  background-color: var(--themeColor);
+}
+.site_variety navigator {
+  width: 25%;
+  text-align: center;
+  justify-content: center;
+}
+.site_variety navigator image {
+  flex: 2;
+  border-radius: 100rpx;
+  background-color: var(--iconBackColor);
+  padding: 10rpx;
+  width: 10vw;
+  height: calc(10vw);
+}
+.site_variety navigator .variety_name {
+  flex: 1;
+  align-items: center;
+}
+.activity {
+  border-bottom: 1px;
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: center;
+}
+.activity .activity_name {
+  font-size: 40rpx;
+  flex: 1;
+}
+.activity .activity_more {
+  margin-left: 50vw;
+  display: inline;
+  float: right;
+  flex: 1;
+}
+.activity_recommend {
+  width: 750rpx;
+  height: 375rpx;
+}
+.activity_recommend navigator {
+  width: 100%;
+}
+.activity_recommend navigator image {
+  width: 100%;
+  height: 50%;
+}
+.site_recommend {
+  border-bottom: 1px;
+  margin-top: 30rpx;
+  font-size: 40rpx;
+}
+.site_recommend navigator {
+  width: 100%;
+}
+.site_recommend navigator image {
+  width: 100%;
+  height: 50%;
+}

@@ -1,0 +1,39 @@
+<view class="user_info_wrap">
+  <view wx:if="{{!hasUserInfo}}" class="login_btn">
+      <button bindtap="getUserProfile" type="primary" plain>
+        用户登录
+      </button>
+  </view>
+  <view wx:else class="user" >
+    <image class="user_img" src="{{userInfo.avatarUrl}}"></image>
+    <view class="user_info">
+            <image class="user_info_icon" src="{{userInfo.avatarUrl}}" />
+            <view class="user_info_name">{{userInfo.nickName}}</view>
+    </view>
+  </view>
+</view>
+
+<view class="user_item">
+  <view class="app_info_wrap" style="font-family:Cursive;font-size:15px;font-style:oblique;font-weight:800">
+        <view class="info_item info_contact">
+            <text >联系客服</text>
+            <text >14585632484</text>
+        </view>
+        <navigator class="info_item">
+          关于我们
+          <text class="right">></text>
+        </navigator>
+        <navigator  class="info_item">
+          关于隐私协议
+          <text class="right">></text>
+        </navigator>
+        <navigator  class="info_item">
+          关于用户协议
+          <text class="right">></text>
+        </navigator>
+        <navigator  class="info_item">
+          意见反馈
+          <text class="right">></text>
+        </navigator>
+    </view>
+</view>
